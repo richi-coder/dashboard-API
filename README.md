@@ -1,8 +1,6 @@
 # dashboardAPI
 For controlling visits and clicks in my portfolio pages using CountAPI (Fetch)
 
-# time-coding
-
 ## App Details:
 
 - Single Page Application.
