@@ -1,2 +1,2 @@
 # dashboardAPI
-For controlling visits and clicks in my portfolio pages.
+For controlling visits and clicks in my portfolio pages using CountAPI (Fetch)
