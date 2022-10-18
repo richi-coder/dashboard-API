@@ -43,11 +43,6 @@ function sort(visits) {
     order.push(visits);
     if (order.length == 4) {
         order.sort((a,b) => b - a);
-        console.log(order)
-        console.log(visitsD.textContent,order.indexOf(visitsD.textContent));
-        //if (result == 0) {}
-        //order.forEach(x => order.indexOf())
-        // order.indexOf(order[i]);
 
         switch(order.indexOf(visitsA.textContent)) {
             case 0:
@@ -125,16 +120,6 @@ function sort(visits) {
                 break;            
         }
 
-        /*
-        
-
-        c.classList.add("box", "second");
-            b.classList.add("box", "first");
-            a.classList.add("box", "fourth");
-            d.classList.add("box", "third");
-
-
-        */
     }
 }
 
@@ -203,7 +188,7 @@ function setting() {
                 return response.json();
             })
             .then(json => {
-                visitsB.textContent = "22"; // aqui cambié
+                visitsB.textContent = json.value; 
                 if (visitsB.textContent != workTimerVisits) {
                     visitsB.style.backgroundColor = "gray";
                 }
@@ -237,13 +222,6 @@ function setting() {
                 clicksB.style.backgroundColor = "red";
             }); // Fetch ends here
 
-        /* This is how to sort boxes, but I won't uset it */
-        /*
-            c.classList.add("box", "second");
-            b.classList.add("box", "first");
-            a.classList.add("box", "fourth");
-            d.classList.add("box", "third");
-            */
         }, 500);
 }
 
@@ -272,4 +250,3 @@ function update() {
     }, 2000);
     
 }
-
