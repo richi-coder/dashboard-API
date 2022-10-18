@@ -4,7 +4,7 @@ For controlling visits and clicks in my portfolio pages using CountAPI (Fetch)
 ## App Details:
 
 - Single Page Application.
-- Tracking visits and clicks in my pages.
+- Tracking visits and clicks in my pages with APIs.
 ___
 
 ## How to use it:
