@@ -1,5 +1,7 @@
 # dashboardAPI
 For controlling visits and clicks in my portfolio pages using CountAPI (Fetch)
+WAKATIME DATA: 
+[![wakatime](https://wakatime.com/badge/github/richiProgrammer/dashboard-API.svg)](https://wakatime.com/badge/github/richiProgrammer/dashboard-API)
 
 ## App Details:
 
